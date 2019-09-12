@@ -55,6 +55,5 @@ public final class LoadToSQliteMasterContract {
 
         /* DROP文 */
         public static final String SQL_DROP_ENTRIES = "DROP TABLE IF EXISTS " + TABLE_NAME;
-
     }
 }
