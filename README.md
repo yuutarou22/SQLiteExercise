@@ -9,6 +9,7 @@ http://yonayona.biz/yonayona/android_master_of_sqlite <br>
 - BaseColumns（インターフェース）
   implementsで実装すると、カラムに自動で_idがつく。
 - SQLiteOpenHelper
+  SQLiteをAndroidで使うときは、このクラスを継承したクラスを作成する。
   SQLiteデータベースを作成したり、テーブルを開いたりする際に用いるヘルパークラスのこと。
   DBの状態によって呼び出されるメソッドが複数定義されている。
 - ヘルパークラス
