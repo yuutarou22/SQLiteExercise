@@ -17,3 +17,8 @@ http://yonayona.biz/yonayona/android_master_of_sqlite <br>
   by http://ymir.seasar.org/docs/1.0.x/ref/standardArchitecture
   「SQLiteOpenHelper」の場合、SQLiteをOpenするためにはこのクラスを継承するといいと明示的にしている。
   by https://teratail.com/questions/29728
+- ヘルパークラスを使う手順
+  1. SQLiteOpenHelperを継承したクラスをインスタンス化する
+  2. SQLiteOpenHelperの #getReadableDatabase か、#getWritableDatabase SQLiteDatabaseのインスタンスを取得する
+  3. SQLiteDatabaseインスタンスのメソッドを使ってテーブルにアクセスする
+  4. SQLiteOpenHelper #close を使って、DBを閉じる
