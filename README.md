@@ -11,9 +11,11 @@ http://yonayona.biz/yonayona/android_master_of_sqlite <br>
 
 ### DAO
   「Data Access Object」の略称。
+  データベースなどのデータストアなどのデータストア操作のインターフェイスを提供するオブジェクトのこと
 
 ### DTO
   「Data Transfer Object」の略称。
+  データを転送する目的で定義されるクラスのこと。
   
 ### BaseColumns（インターフェース）
   implementsで実装すると、カラムに自動で_idがつく。
